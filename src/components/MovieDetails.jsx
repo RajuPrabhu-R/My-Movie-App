@@ -136,7 +136,7 @@ const MovieDetails = ({ movie, onClose }) => {
                 ) : (
                   <iframe
                     id="trailer-iframe"
-                    className="flex justify-center items-center max-w-100"
+                    className="flex justify-center items-center"
                     width="100%"
                     height="400"
                     src={trailerUrl}
